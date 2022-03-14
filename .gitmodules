@@ -1,0 +1,3 @@
+[submodule "kbe"]
+	path = kbe
+	url = https://github.com/openshift-evangelists/kbe
