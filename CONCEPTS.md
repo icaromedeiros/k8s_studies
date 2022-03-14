@@ -3,6 +3,7 @@
 Inspired by https://kubebyexample.com/.
 
 All kube by example tutorial can be cloned with `git clone https://github.com/openshift-evangelists/kbe.git`
+Find running examples in `kbe/specs`.
 
 # Containers
 
@@ -29,7 +30,6 @@ A pod is a collection of **runnable containers sharing a network**, acting as th
 - Abstract away the container tech, 1 layer above them
 - 1 application per pod, so imagine a typical application with HTTP API code in one container + a containerized database, sharing a pod
 
-
 # Labels
 
 https://kubebyexample.com/en/concept/labels
@@ -44,3 +44,4 @@ https://kubebyexample.com/en/concept/deployments
 
 A deployment is a supervisor for pods, with fine-grained control over how and when a new pod version is rolled out as well as rolled back to a previous state.
 
+# 
